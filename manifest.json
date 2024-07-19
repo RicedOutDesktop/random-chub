@@ -1,0 +1,11 @@
+{
+    "display_name": "Random Chub",
+    "loading_order": 9,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "Gus Poopchute",
+    "version": "1.0.0",
+    "homePage": "https://github.com/RicedOutDesktop/"
+}

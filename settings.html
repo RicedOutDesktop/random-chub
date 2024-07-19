@@ -1,0 +1,43 @@
+<div class="random_chub-settings">
+    <div class="inline-drawer">
+        <div class="inline-drawer-toggle inline-drawer-header">
+            <b>Random Chub</b>
+            <div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
+        </div>
+        <div class="inline-drawer-content">
+            <div class="random_chub_block flex-container">
+                <label for="min_user_chats_slider">Minimum User Chats:</label>
+                <input class="neo-range-slider" type="range" id="min_user_chats_slider" name="min_user_chats" max="9001" step="10"  >
+                <input class="neo-range-input" type="number" id="min_user_chats_value" data-for="min_user_chats" max="9001" step="10" >
+
+                <label for="min_token_count_slider">Minimum Token Count:</label>
+                <input class="neo-range-slider" type="range" id="min_token_count_slider" name="min_token_count" max="9001" step="10"  >
+                <input class="neo-range-input" type="number" id="min_token_count_value" data-for="min_token_count" max="9001" step="10" >
+
+                <label for="max_token_count_slider">Maximum Token Count:</label>
+                <input class="neo-range-slider" type="range" id="max_token_count_slider" name="max_token_count" max="9001" step="10"  >
+                <input class="neo-range-input" type="number" id="max_token_count_value" data-for="max_token_count" max="9001" step="10" >
+                
+                <label for="tags">Tags:</label>
+                <textarea id="tags"></textarea>
+
+                <label for="exclude_tags">Exclude Tags:</label>
+                <textarea id="exclude_tags"></textarea>
+                </div>
+            <div class="random_chub_button_block flex-container">
+                <label for="nsfw">NSFW:</label>
+                <input id="nsfw" type="checkbox" />
+
+                <label for="nsfw_only">NSFW only:</label>
+                <input id="nsfw_only" type="checkbox" />
+
+                <label for="nsfl">NSFL:</label>
+                <input id="nsfl" type="checkbox" />
+
+                <input id="dl_and_import" class="menu_button" type="submit" value="Download and Import Random Character" />
+            </div>
+
+            <hr class="sysHR" />
+        </div>
+    </div>
+</div>
