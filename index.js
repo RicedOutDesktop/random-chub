@@ -75,7 +75,6 @@ function onChangeMinUserSlider(event) {
   const value = $(event.target).prop("value");
   $("#min_user_chats_value").prop("value", value).trigger("input");
   extension_settings[extensionName].min_user_chats = value;
-  console.log(value);
   saveSettingsDebounced();
 }
 
