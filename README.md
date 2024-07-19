@@ -1,7 +1,8 @@
 # SillyTavern Random Chub
 
 Broaden your horizon by importing random bots from the chub.
-Or discover new slot you'll instantly delete.
+
+Or discover new slop you'll instantly delete.
 
 ## Features
 
